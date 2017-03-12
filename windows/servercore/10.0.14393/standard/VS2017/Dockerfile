@@ -31,6 +31,7 @@ RUN choco install \
     --confirm \
     --limit-output \
     --timeout 216000 \
+    --version 15.0.26228.0 \
     -pre
 
 RUN choco install \
