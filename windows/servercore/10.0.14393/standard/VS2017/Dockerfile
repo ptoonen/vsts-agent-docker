@@ -82,7 +82,7 @@ ENV NUGET_XMLDOC_MODE skip
 
 RUN mkdir C:\warmup \
     && cd C:\warmup \
-    && dotnet new \
+    && dotnet new console \
     && cd .. \
     && rmdir /S /Q C:\warmup \
     && rmdir /S /Q C:\chococache
