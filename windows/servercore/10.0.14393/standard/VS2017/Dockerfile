@@ -18,7 +18,6 @@ RUN choco install \
     --confirm \
     --limit-output \
     --timeout 216000
-   # choco install visualstudio2015community --confirm --timeout 216000 \
 
 RUN choco install \
     dotnet4.6.1 \
@@ -42,6 +41,7 @@ RUN choco install \
     --confirm \
     --limit-output \
     --timeout 21600 \
+    --version 1.1.0 \
     --package-parameters "--includeOptional"
 
 # common node tools
