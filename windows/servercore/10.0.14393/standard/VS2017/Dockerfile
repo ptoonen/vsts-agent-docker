@@ -30,8 +30,7 @@ RUN choco install \
     --confirm \
     --limit-output \
     --timeout 216000 \
-    --version 15.0.26228.0 \
-    -pre
+    --version 15.0.26228.0 
 
 RUN choco install \
     visualstudio2017-workload-azure \
